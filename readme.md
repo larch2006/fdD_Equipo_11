@@ -44,7 +44,7 @@ Estos objetivos guían el desarrollo del proyecto, buscando soluciones que contr
 | <img src="Recursos/Imagenes/b.jpeg" width="80"> | **Romero Chac Luis** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
 | <img src="Recursos/Imagenes/c.jpeg" width="80"> | **Chavez Orihuela Isai** |Gestión económica | Desarrollo sostenible|
 | <img src="Recursos/Imagenes/d.jpeg" width="80"> | **Cielo** |Diseño de prototipos | Desarrollo sosteniblecreatividad aplicada|
-| <img src="Recursos/Imagenes/e.png" width="80"> | **Piero Romero Meza** |Modelación de recursos | Innovación e infraestructura|
+| <img src="Recursos/Imagenes/e.jpeg" width="80"> | **Piero Romero Meza** |Modelación de recursos | Innovación e infraestructura|
 ---
 
 ## 📝 Resumen
