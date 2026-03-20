@@ -49,6 +49,5 @@ Estos objetivos guían el desarrollo del proyecto, buscando soluciones que contr
 
 ## 📝 Resumen
 
-Nuestro grupo busca plantear proyectos que combinen **tecnología, sostenibilidad y diseño** enfocado en las **personas y la comunidad**, con el propósito de **ofrecer respuestas a problemáticas existentes tanto en nuestro país como en otras regiones del mundo**. Estas iniciativas estarán alineadas con los ODS de las Naciones Unidas, aportando al desarrollo de soluciones innovadoras y sostenibles.
-
+Nuestro grupo busca plantear proyectos que combinen **tecnología, sostenibilidad y diseño** enfocado en las **personas y la comunidad**, con el propósito de **ofrecer respuestas a problemáticas existentes tanto en nuestro país como en otras regiones del mundo**. Estas iniciativas estarán alineadas con los ODS de las Naciones Unidas, aportando al desarrollo de soluciones innovadoras y sostenibles.esto es una prueba
 ---
