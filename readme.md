@@ -42,10 +42,12 @@ Estos objetivos guían el desarrollo del proyecto, buscando soluciones que contr
 |-----|-----|-----|-----|
 | <img src="Recursos/Imagenes/a.png" width="80"> | **Ximena** | Líder del equipo | Innovación social, sostenibilidad |
 | <img src="Recursos/Imagenes/b.jpg" width="80"> | **Romero Chac Luis** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
-| <img src="Recursos/Imagenes/c.jpg" width="80"> | **** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
+| <img src="Recursos/Imagenes/c.jpg" width="80"> | **Chavez Orihuela Isai** |Gestión económica, desarrollo sostenible|
 
 ---
 
 ## 📝 Resumen
 
 uestro grupo busca plantear proyectos que combinen **tecnología, sostenibilidad y diseño** enfocado en las **personas y la comunidad**, con el propósito de **ofrecer respuestas a problemáticas existentes tanto en nuestro país como en otras regiones del mundo**. Estas iniciativas estarán alineadas con los ODS de las Naciones Unidas, aportando al desarrollo de soluciones innovadoras y sostenibles.
+
+---
