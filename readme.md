@@ -1,5 +1,5 @@
 <!-- Encabezado -->
-<h1 align="center">Equipo 1 — Fundamentos de Diseño 2026-1</h1>
+<h1 align="center">Equipo 11 — Fundamentos de Diseño 2026-1</h1>
 
 ---
 
@@ -10,7 +10,7 @@
 
 ## 🧭 Descripción
 
-Somos el **Equipo 1** del curso **Fundamentos de Diseño 2026-1**, integrado por estudiantes de las carreras de **Ingeniería Ambiental, Ingeniería Informática e Ingeniería Industrial**.
+Somos el **Equipo 11** del curso **Fundamentos de Diseño 2026-1**, integrado por estudiantes de las carreras de **Ingeniería Ambiental, Ingeniería Informática e Ingeniería Industrial**.
 
 Nuestro propósito es **aplicar la metodología de diseño** para desarrollar soluciones innovadoras que generen un impacto positivo en los ámbitos **social, tecnológico y ambiental**.
 
