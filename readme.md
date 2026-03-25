@@ -5,7 +5,7 @@
 
 ## Descripcion Carrera de Ingeniería Ambiental / Informática / Industrial
    Universidad Peruana Cayetano Herediación
-
+![image alt](https://github.com/larch2006/fdD_Equipo_11/blob/5eeb8af75c9f2aa9c80f6cc2a836c63c10661542/WhatsApp%20Image%202026-03-23%20at%202.12.47%20PM.jpeg)
 ---
 
 ## 🧭 Descripción
