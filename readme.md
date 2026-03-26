@@ -44,10 +44,11 @@ Estos objetivos guían el desarrollo del proyecto, buscando soluciones que contr
 | <img src="Recursos/Imagenes/c.jpeg" width="80"> | **Chavez Orihuela Isai** |Gestión económica | Desarrollo sostenible|
 | <img src="Recursos/Imagenes/d.jpeg" width="80"> | **Cielo Durand Romero** |Diseño de prototipos | Desarrollo sosteniblecreatividad aplicada|
 | <img src="Recursos/Imagenes/e.jpeg" width="80"> | **Piero Romero Meza** |Modelación de recursos | Innovación e infraestructura|
+
 ---
 
 ## 📝 Resumen
 
 Nuestro equipo busca plantear proyectos que combinen **tecnología, sostenibilidad y diseño** enfocado en las **personas y la comunidad**, con el propósito de **ofrecer respuestas a problemáticas existentes tanto en nuestro país como en otras regiones del mundo**. Estas iniciativas estarán alineadas con los ODS de las Naciones Unidas, aportando al desarrollo de soluciones innovadoras y sostenibles.
 
---
+---
