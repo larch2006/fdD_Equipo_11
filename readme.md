@@ -55,7 +55,7 @@ Estos objetivos guían el desarrollo del proyecto, buscando soluciones que contr
 
 | Foto | Nombre | Rol | Intereses |
 |-----|-----|-----|-----|
-| <img src="Recursos/Imagenes/a.png" width="80"> | **Ximena** | Líder del equipo | Innovación social, sostenibilidad |
+| <img src="Recursos/Imagenes/a.png" width="80"> | **Ximena Karina Garcia Juica** | Líder del equipo | Innovación social, sostenibilidad |
 | <img src="Recursos/Imagenes/b.jpeg" width="80"> | **Romero Chac Luis** | Responsable de investigación | análisis de datos, soluciones tecnológicas |
 | <img src="Recursos/Imagenes/c.jpeg" width="80"> | **Chavez Orihuela Isai** |Gestión económica | Desarrollo sostenible,Generar beneficios|
 | <img src="Recursos/Imagenes/d.jpeg" width="80"> | **Cielo Durand Romero** |Diseño de prototipos | Desarrollo sosteniblecreatividad aplicada|
