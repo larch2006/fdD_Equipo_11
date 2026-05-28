@@ -5,4 +5,4 @@
 
 
 ## Modelado Boceto
-(https://cad.onshape.com/documents/680476b3b2efbbb49a98d08d/w/2281e10dc1f6186d653609fc/e/69ea935a1b036fd8bcd400ad)
+(https://cad.onshape.com/documents/4d1ca19c4fbe2d4cc3ed9e72/w/6fb473b34169f9844e27b0b2/e/299327411dfebca3cf671fd3)
