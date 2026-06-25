@@ -1,7 +1,7 @@
 # Entregable 03 – Diseño Final del Prototipo
 
 <p align="center">
-  <a href="https://github.com/larch2006/fdD_Equipo_11/tree/main/Fundamentos%20de%20Dise%C3%B1o/ENTREGABLES/Entregable%203/M%C3%B3duloMec%C3%A1nico/Onshape/Ensamble">
+  <a href="https://github.com/larch2006/fdD_Equipo_11/blob/main/Fundamentos%20de%20Dise%C3%B1o/ENTREGABLES/Entregable%203/M%C3%B3duloElectr%C3%B3nico/MOSHV_Schematic1.pdf">
     <img src="https://img.shields.io/badge/Esquemático-PDF-red?style=for-the-badge" alt="Esquemático">
   </a>
   <a href="https://github.com/larch2006/fdD_Equipo_11/tree/main/Fundamentos%20de%20Dise%C3%B1o/ENTREGABLES/Entregable%203/M%C3%B3duloMec%C3%A1nico/Bocetos">
@@ -39,7 +39,7 @@ Diagrama electrónico completo del sistema incluyendo:
 - Actuadores.
 - Conectores y elementos auxiliares.
 
-📄 **[Ver más detalles](https://github.com/larch2006/fdD_Equipo_11/tree/main/Fundamentos%20de%20Dise%C3%B1o/ENTREGABLES/Entregable%203/M%C3%B3duloMec%C3%A1nico/Onshape/Ensamble)**
+📄 **[Ver más detalles](https://github.com/larch2006/fdD_Equipo_11/blob/main/Fundamentos%20de%20Dise%C3%B1o/ENTREGABLES/Entregable%203/M%C3%B3duloElectr%C3%B3nico/MOSHV_Schematic1.pdf)**
 
 ---
 
