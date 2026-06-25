@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monitor ESP32 – Sensores</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<!-- ── SIDEBAR ── -->
+<aside class="sidebar">
+  <div class="sidebar-logo">
+    <span class="logo-icon">⬡</span>
+    <span class="logo-text">ESP32 Monitor</span>
+  </div>
+  <nav class="sidebar-nav">
+    <a href="#" class="nav-item active" data-section="inicio">
+      <span class="nav-icon">⊞</span> Inicio
+    </a>
+    <a href="#" class="nav-item" data-section="sensores">
+      <span class="nav-icon">◈</span> Sensores
+    </a>
+    <a href="#" class="nav-item" data-section="historial">
+      <span class="nav-icon">▦</span> Historial
+    </a>
+    <a href="#" class="nav-item" data-section="alertas">
+      <span class="nav-icon">⚑</span> Alertas
+    </a>
+    <a href="#" class="nav-item" data-section="api">
+      <span class="nav-icon">⟡</span> API
+    </a>
+  </nav>
+  <div class="sidebar-footer">
+    <span class="ip-label">IP ESP32</span>
+    <code>192.168.1.35</code>
+  </div>
+</aside>
+
+<!-- ── MAIN ── -->
+<main class="main">
+
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <h1 class="page-title">Panel de Monitoreo de Sensores</h1>
+      <p class="page-subtitle">Actualización automática cada 1 minuto</p>
+    </div>
+    <div class="topbar-right">
+      <div class="status-pill" id="statusPill">
+        <span class="status-dot" id="statusDot"></span>
+        <span id="statusText">Verificando…</span>
+      </div>
+      <div class="last-update">
+        <span class="update-label">Última actualización</span>
+        <span id="lastUpdate">—</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- AVISO SIN CONEXIÓN -->
+  <div class="alert-banner" id="alertBanner" style="display:none">
+    ⚠ No se puede conectar con el ESP32 (192.168.1.35). Mostrando último dato disponible.
+  </div>
+
+  <!-- TEMPERATURA AMBIENTE -->
+  <div class="ambient-strip">
+    <div class="ambient-inner">
+      <span class="ambient-label">🌡 Temperatura ambiente</span>
+      <span class="ambient-value" id="tempAmbiente">—</span>
+      <span class="ambient-unit">°C</span>
+    </div>
+  </div>
+
+  <!-- GRID TARJETAS -->
+  <section class="cards-grid">
+
+    <!-- pH -->
+    <article class="sensor-card" id="card-ph">
+      <div class="card-header">
+        <div class="card-title-group">
+          <span class="card-icon">⚗</span>
+          <h2 class="card-title">pH</h2>
+        </div>
+        <span class="estado-badge" id="badge-ph">—</span>
+      </div>
+      <div class="card-value-row">
+        <span class="card-value" id="val-ph">—</span>
+        <span class="card-unit">pH</span>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chart-ph"></canvas>
+      </div>
+      <div class="period-btns">
+        <button class="period-btn active" data-sensor="ph" data-period="hora">Hora</button>
+        <button class="period-btn" data-sensor="ph" data-period="dia">Día</button>
+        <button class="period-btn" data-sensor="ph" data-period="semana">Semana</button>
+        <button class="period-btn" data-sensor="ph" data-period="mes">Mes</button>
+      </div>
+    </article>
+
+    <!-- TDS -->
+    <article class="sensor-card" id="card-tds">
+      <div class="card-header">
+        <div class="card-title-group">
+          <span class="card-icon">💧</span>
+          <h2 class="card-title">TDS</h2>
+        </div>
+        <span class="estado-badge" id="badge-tds">—</span>
+      </div>
+      <div class="card-value-row">
+        <span class="card-value" id="val-tds">—</span>
+        <span class="card-unit">ppm</span>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chart-tds"></canvas>
+      </div>
+      <div class="period-btns">
+        <button class="period-btn active" data-sensor="tds" data-period="hora">Hora</button>
+        <button class="period-btn" data-sensor="tds" data-period="dia">Día</button>
+        <button class="period-btn" data-sensor="tds" data-period="semana">Semana</button>
+        <button class="period-btn" data-sensor="tds" data-period="mes">Mes</button>
+      </div>
+    </article>
+
+    <!-- Temperatura del agua -->
+    <article class="sensor-card" id="card-temperatura_agua">
+      <div class="card-header">
+        <div class="card-title-group">
+          <span class="card-icon">🌊</span>
+          <h2 class="card-title">Temperatura del agua</h2>
+        </div>
+        <span class="estado-badge" id="badge-temperatura_agua">—</span>
+      </div>
+      <div class="card-value-row">
+        <span class="card-value" id="val-temperatura_agua">—</span>
+        <span class="card-unit">°C</span>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chart-temperatura_agua"></canvas>
+      </div>
+      <div class="period-btns">
+        <button class="period-btn active" data-sensor="temperatura_agua" data-period="hora">Hora</button>
+        <button class="period-btn" data-sensor="temperatura_agua" data-period="dia">Día</button>
+        <button class="period-btn" data-sensor="temperatura_agua" data-period="semana">Semana</button>
+        <button class="period-btn" data-sensor="temperatura_agua" data-period="mes">Mes</button>
+      </div>
+    </article>
+
+    <!-- Humedad -->
+    <article class="sensor-card" id="card-humedad">
+      <div class="card-header">
+        <div class="card-title-group">
+          <span class="card-icon">🌫</span>
+          <h2 class="card-title">Humedad</h2>
+        </div>
+        <span class="estado-badge" id="badge-humedad">—</span>
+      </div>
+      <div class="card-value-row">
+        <span class="card-value" id="val-humedad">—</span>
+        <span class="card-unit">%</span>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chart-humedad"></canvas>
+      </div>
+      <div class="period-btns">
+        <button class="period-btn active" data-sensor="humedad" data-period="hora">Hora</button>
+        <button class="period-btn" data-sensor="humedad" data-period="dia">Día</button>
+        <button class="period-btn" data-sensor="humedad" data-period="semana">Semana</button>
+        <button class="period-btn" data-sensor="humedad" data-period="mes">Mes</button>
+      </div>
+    </article>
+
+  </section>
+</main>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
