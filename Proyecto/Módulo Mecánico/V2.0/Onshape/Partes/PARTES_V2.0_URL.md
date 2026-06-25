@@ -1,7 +1,7 @@
 ## LINKS
 
 ## Caja Electronica
-(https://cad.onshape.com/documents/366db57948b9c59c43426fe5/w/0376514d6d20bfe1bf2510a4/e/ead6ddb82d07f4192c12537e)
+https://cad.onshape.com/documents/c1a22b70a538ccc81e7cc7cd/w/a6c65ef252221e9b551edf6b/e/1bcd5a2f151c2f0f975a53a3
 
 
 ## Modelado Boceto
