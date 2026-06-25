@@ -55,11 +55,11 @@ Estos objetivos guían el desarrollo del proyecto, buscando soluciones que contr
 
 | Foto | Nombre | Rol | Intereses |
 |-----|-----|-----|-----|
-| <img src="Recursos/Imagenes/a.png" width="80"> | **Ximena Karina Garcia Juica** | Líder del equipo | Innovación social, sostenibilidad |
-| <img src="Recursos/Imagenes/b.jpeg" width="80"> | **Romero Chac Luis** | Responsable de investigación | análisis de datos, soluciones tecnológicas |
-| <img src="Recursos/Imagenes/c.jpeg" width="80"> | **Chavez Orihuela Isai** |Gestión económica | Desarrollo sostenible,Generar beneficios|
-| <img src="Recursos/Imagenes/d.jpeg" width="80"> | **Cielo Durand Romero** |Diseño de prototipos | Desarrollo sosteniblecreatividad aplicada|
-| <img src="Recursos/Imagenes/e.jpeg" width="80"> | **Piero Romero Meza** |Modelación de recursos | Innovación e infraestructura|
+| <img src="Recursos/Imagenes/Ximena_Garcia.png" width="80"> | **Ximena Karina Garcia Juica** | Líder del equipo | Innovación social, sostenibilidad | ximena.garcia.j@upch.pe |
+| <img src="Recursos/Imagenes/Luis_Chac.jpeg" width="80"> | **Romero Chac Luis** | Responsable de investigación | análisis de datos, soluciones tecnológicas | luis.romero@upch.pe |
+| <img src="Recursos/Imagenes/Isai_Chavez.jpeg" width="80"> | **Chavez Orihuela Isai** |Gestión económica | Desarrollo sostenible,Generar beneficios| isai.chavez@upch.pe |
+| <img src="Recursos/Imagenes/Cielo_Durand.jpeg" width="80"> | **Cielo Durand Romero** |Diseño de prototipos | Desarrollo sosteniblecreatividad aplicada| cielo.durand@upch.pe |
+| <img src="Recursos/Imagenes/Piero_Romero.jpeg" width="80"> | **Piero Romero Meza** |Modelación de recursos | Innovación e infraestructura| piero.romero@upch.pe |
 
 ---
 
