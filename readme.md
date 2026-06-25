@@ -53,7 +53,7 @@ Estos objetivos guían el desarrollo del proyecto, buscando soluciones que contr
 
 ## 👥 Integrantes del Equipo
 
-| Foto | Nombre | Rol | Intereses |
+| Foto | Nombre | Rol | Intereses | Correo |
 |-----|-----|-----|-----|
 | <img src="Recursos/Imagenes/Ximena_Garcia.png" width="80"> | **Ximena Karina Garcia Juica** | Líder del equipo | Innovación social, sostenibilidad | ximena.garcia.j@upch.pe |
 | <img src="Recursos/Imagenes/Luis_Chac.jpeg" width="80"> | **Romero Chac Luis** | Responsable de investigación | análisis de datos, soluciones tecnológicas | luis.romero@upch.pe |
